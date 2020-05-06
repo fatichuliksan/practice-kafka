@@ -1,0 +1,30 @@
+{
+    "app": {
+        "name": "kafka-example",
+        "debug": true,
+        "host": "127.0.0.1:8080",
+        "secret": ""
+    },
+    "database": {
+        "postgre": {
+            "host": "localhost",
+            "port": 5432,
+            "database": "dev_oms",
+            "username": "postgres",
+            "password": "root"
+        },
+        "postgre2": {
+            "host": "localhost",
+            "port": 5432,
+            "database": "wms_master",
+            "username": "postgres",
+            "password": "root"
+        }
+    },
+    "jwt": {
+        "secret": "oms-api"
+    },
+    "kafka": {
+        "host": "localhost:9092"
+    }
+}
